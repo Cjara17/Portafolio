@@ -1,0 +1,84 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo mate claro */
+    color: #333; /* Texto oscuro */
+}
+
+/* Encabezado */
+header {
+    background-color: #6c757d; /* Gris mate */
+    color: #f8f9fa; /* Blanco mate */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Sección de proyectos */
+.section {
+    padding: 20px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: #ffffff; /* Blanco mate */
+    border: 1px solid #ced4da; /* Borde gris claro */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.project-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #495057; /* Gris oscuro */
+}
+
+.project-card p {
+    font-size: 0.9em;
+    color: #6c757d; /* Gris mate */
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #adb5bd; /* Gris mate */
+    color: #ffffff; /* Blanco mate */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-card a:hover {
+    background-color: #868e96; /* Gris más oscuro */
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #6c757d; /* Gris mate */
+    color: #f8f9fa; /* Blanco mate */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

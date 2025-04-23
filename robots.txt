@@ -1,0 +1,9 @@
+# Bloquea el acceso a todas las carpetas privadas
+User-agent: *
+
+
+# Permite el acceso a todo lo demás
+Allow: /
+
+# Indica la ubicación del archivo (si tienes uno)
+Sitemap: https://www.tusitio.com/sitemap.xml
